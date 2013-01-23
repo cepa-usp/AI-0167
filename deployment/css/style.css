@@ -1,0 +1,53 @@
+.textoEscondido {
+	visibility:hidden;
+	display:none;
+}
+
+
+html {
+	font-family:"Trebuchet MS", "Verdana", "Arial";
+	font-size:12px;
+	background-color:#cccccc;
+	width:1024px;
+	margin:auto;
+}
+
+body {
+	margin:auto;
+	background-color:white;
+	height:600px;
+}
+
+h1 {
+	margin-left:50px;
+}
+
+#arvore {
+	float:left;
+	width:400px;
+	//border:1px solid red;
+}
+
+#arvore a{
+	white-space:normal !important; 
+	height: auto; 
+	padding:1px 2px;
+}
+
+#arvore li > ins { 
+	vertical-align:top; 
+}
+
+#arvore .jstree-hovered, #arvore .jstree-clicked { 
+	border:0; 
+}
+
+#dialog{
+	float:right;
+	width:580px;
+	height:500px;
+	margin-right:20px;
+	background-color:#F9F9F9;
+	text-align: justify;
+}
+
