@@ -26,6 +26,51 @@ $(function () {
 			//"valid_children" : [ "drive" ],
 			"types" : {
 				// The default type
+				"ini" : {
+					// I want this type to have no children (so only leaf nodes)
+					// In my case - those are files
+					//"valid_children" : "none",
+					// If we specify an icon for the default type it WILL OVERRIDE the theme icons
+					"icon" : {
+						"image" : "images/pasta01a.gif"
+					}
+				},
+				"sub1" : {
+					// I want this type to have no children (so only leaf nodes)
+					// In my case - those are files
+					//"valid_children" : "none",
+					// If we specify an icon for the default type it WILL OVERRIDE the theme icons
+					"icon" : {
+						"image" : "images/pasta02a.gif"
+					}
+				},
+				"sub2" : {
+					// I want this type to have no children (so only leaf nodes)
+					// In my case - those are files
+					//"valid_children" : "none",
+					// If we specify an icon for the default type it WILL OVERRIDE the theme icons
+					"icon" : {
+						"image" : "images/pasta03a.gif"
+					}
+				},
+				"sub3" : {
+					// I want this type to have no children (so only leaf nodes)
+					// In my case - those are files
+					//"valid_children" : "none",
+					// If we specify an icon for the default type it WILL OVERRIDE the theme icons
+					"icon" : {
+						"image" : "images/pasta04a.gif"
+					}
+				},
+				"sub4" : {
+					// I want this type to have no children (so only leaf nodes)
+					// In my case - those are files
+					//"valid_children" : "none",
+					// If we specify an icon for the default type it WILL OVERRIDE the theme icons
+					"icon" : {
+						"image" : "images/pasta05a.gif"
+					}
+				},
 				"final" : {
 					// I want this type to have no children (so only leaf nodes)
 					// In my case - those are files
