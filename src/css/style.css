@@ -8,7 +8,7 @@ html {
 	font-family:"Trebuchet MS", "Verdana", "Arial";
 	font-size:12px;
 	background-color:#dbdbdb;
-	width:1024px;
+	width:500px;
 	margin:auto;
 }
 
@@ -21,11 +21,13 @@ body {
 h1 {
 	text-align: center;
 	padding-top: 10px;
+	font-size:18px;
 }
 
 #arvore {
-	float:left;
-	width:400px;
+	/*float:left;
+	width:400px;*/
+	margin-left: 25px;
 	background: #f2e6e8;
 	height:530px;
 	overflow:auto;
@@ -51,7 +53,7 @@ h1 {
 #arvore .jstree-clicked { 
 	font-weight: bold;
 }
-
+/*
 #dialog{
 	float:right;
 	width:580px;
@@ -64,4 +66,5 @@ h1 {
 	border-color: #DBDBDB;
 	
 }
+*/
 

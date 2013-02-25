@@ -89,6 +89,7 @@ $(function () {
 		//.bind("loaded.jstree", function (event, data) {
 			// you get two params - event & data - check the core docs for a detailed description
 		//});
+		/*
 		.bind("select_node.jstree", function (event, data) {
             // `data.rslt.obj` is the jquery extended node that was clicked
             //alert(data.rslt.obj.attr("id"));
@@ -115,7 +116,7 @@ $(function () {
 			$( "#dialog" ).dialog( "option", "width", 600 );
 			$( "#dialog" ).dialog( "option", "maxHeight", 600 );
 			*/
-        })
+        //})
 		.delegate("a", "click", function (event, data) { event.preventDefault(); })
 	// INSTANCES
 	// 1) you can call most functions just by selecting the container and calling `.jstree("func",`
